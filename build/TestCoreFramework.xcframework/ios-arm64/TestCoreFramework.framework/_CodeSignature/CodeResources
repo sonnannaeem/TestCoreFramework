@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/TestCoreFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		noUBBcq0NAZ2uJwx1Dinl4fnZ38=
+		D+GMsE/g8j6u3k8VBNN+hD7VLpE=
 		</data>
 		<key>Modules/TestCoreFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VcB7k2bkFZfKDiWmGFlLGfmpF4M=
+		h8e9f+W1ch2P1RHbEXNnT+kxyXE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -60,14 +60,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nV/0RQfxFyuXN1bBZLOSUQUAsARsGxQTOJG2A9pq9Pg=
+			eruiHyqu7OTPpvAY0fr6Sib5+LKkG5/u7oXQD4ESy9U=
 			</data>
 		</dict>
 		<key>Modules/TestCoreFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z01rvyr9Cg99jiVAJvbjSmfDmgt2NKDhpQlW3YC8mXc=
+			coiJM4Oa5ewQIux7QuPL8GrC/8nbSGxeIcMHGIhdcsE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
