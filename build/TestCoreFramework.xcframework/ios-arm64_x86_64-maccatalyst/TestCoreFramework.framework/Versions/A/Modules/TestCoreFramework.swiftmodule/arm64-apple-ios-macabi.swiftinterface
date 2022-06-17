@@ -8,4 +8,5 @@ import Swift
 import _Concurrency
 public struct SDK {
   public static func sayHello()
+  public static func GoogleTest() -> Swift.String
 }
