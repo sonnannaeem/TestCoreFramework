@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C2BCA3E285BBAEF00048669 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 8C2BCA3D285BBAEF00048669 /* GoogleSignIn */; };
 		8C5D394F285A6FEA009CB9BF /* TestCoreFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5D394E285A6FEA009CB9BF /* TestCoreFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C5D3956285A7003009CB9BF /* SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5D3955285A7003009CB9BF /* SDK.swift */; };
 /* End PBXBuildFile section */
@@ -23,7 +22,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2BCA3E285BBAEF00048669 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +83,6 @@
 			);
 			name = TestCoreFramework;
 			packageProductDependencies = (
-				8C2BCA3D285BBAEF00048669 /* GoogleSignIn */,
 			);
 			productName = TestCoreFramework;
 			productReference = 8C5D394B285A6FEA009CB9BF /* TestCoreFramework.framework */;
@@ -116,7 +113,6 @@
 			);
 			mainGroup = 8C5D3941285A6FEA009CB9BF;
 			packageReferences = (
-				8C2BCA3C285BBAEF00048669 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = 8C5D394C285A6FEA009CB9BF /* Products */;
 			projectDirPath = "";
@@ -371,11 +367,6 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		8C24B8812860FC2200DCAAF2 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8C2BCA3C285BBAEF00048669 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-		8C2BCA3D285BBAEF00048669 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8C2BCA3C285BBAEF00048669 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignIn;
