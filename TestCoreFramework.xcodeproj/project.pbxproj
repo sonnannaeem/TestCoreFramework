@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F143EE02B29E8456F52A457 /* Pods_TestCoreFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D325663A1DB134531CD9D4 /* Pods_TestCoreFramework.framework */; };
 		8C5D394F285A6FEA009CB9BF /* TestCoreFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5D394E285A6FEA009CB9BF /* TestCoreFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C5D3956285A7003009CB9BF /* SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5D3955285A7003009CB9BF /* SDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5453AC9D336B8234ED952C72 /* Pods-TestCoreFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCoreFramework.debug.xcconfig"; path = "Target Support Files/Pods-TestCoreFramework/Pods-TestCoreFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		5F38A32B87D42E9E05D834D5 /* Pods-TestCoreFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCoreFramework.release.xcconfig"; path = "Target Support Files/Pods-TestCoreFramework/Pods-TestCoreFramework.release.xcconfig"; sourceTree = "<group>"; };
+		63D325663A1DB134531CD9D4 /* Pods_TestCoreFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCoreFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5D394B285A6FEA009CB9BF /* TestCoreFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCoreFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5D394E285A6FEA009CB9BF /* TestCoreFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCoreFramework.h; sourceTree = "<group>"; };
 		8C5D3955285A7003009CB9BF /* SDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDK.swift; sourceTree = "<group>"; };
@@ -22,17 +26,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F143EE02B29E8456F52A457 /* Pods_TestCoreFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		398A2136625C2F4E3322A81D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D325663A1DB134531CD9D4 /* Pods_TestCoreFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8C5D3941285A6FEA009CB9BF = {
 			isa = PBXGroup;
 			children = (
 				8C5D394D285A6FEA009CB9BF /* TestCoreFramework */,
 				8C5D394C285A6FEA009CB9BF /* Products */,
+				9204C402CCE592B542960517 /* Pods */,
+				398A2136625C2F4E3322A81D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +68,16 @@
 			path = TestCoreFramework;
 			sourceTree = "<group>";
 		};
+		9204C402CCE592B542960517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5453AC9D336B8234ED952C72 /* Pods-TestCoreFramework.debug.xcconfig */,
+				5F38A32B87D42E9E05D834D5 /* Pods-TestCoreFramework.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -71,6 +96,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C5D3952285A6FEA009CB9BF /* Build configuration list for PBXNativeTarget "TestCoreFramework" */;
 			buildPhases = (
+				81C2FCC990E56420CD21DA19 /* [CP] Check Pods Manifest.lock */,
 				8C5D3946285A6FEA009CB9BF /* Headers */,
 				8C5D3947285A6FEA009CB9BF /* Sources */,
 				8C5D3948285A6FEA009CB9BF /* Frameworks */,
@@ -82,8 +108,6 @@
 				8C24B8822860FC2200DCAAF2 /* PBXTargetDependency */,
 			);
 			name = TestCoreFramework;
-			packageProductDependencies = (
-			);
 			productName = TestCoreFramework;
 			productReference = 8C5D394B285A6FEA009CB9BF /* TestCoreFramework.framework */;
 			productType = "com.apple.product-type.framework";
@@ -112,8 +136,6 @@
 				Base,
 			);
 			mainGroup = 8C5D3941285A6FEA009CB9BF;
-			packageReferences = (
-			);
 			productRefGroup = 8C5D394C285A6FEA009CB9BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,6 +155,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81C2FCC990E56420CD21DA19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCoreFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C5D3947285A6FEA009CB9BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -147,7 +194,7 @@
 /* Begin PBXTargetDependency section */
 		8C24B8822860FC2200DCAAF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 8C24B8812860FC2200DCAAF2 /* GoogleSignIn */;
+			productRef = 8C24B8812860FC2200DCAAF2;
 		};
 /* End PBXTargetDependency section */
 
@@ -274,6 +321,7 @@
 		};
 		8C5D3953285A6FEA009CB9BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5453AC9D336B8234ED952C72 /* Pods-TestCoreFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +352,7 @@
 		};
 		8C5D3954285A6FEA009CB9BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F38A32B87D42E9E05D834D5 /* Pods-TestCoreFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -353,25 +402,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8C2BCA3C285BBAEF00048669 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8C24B8812860FC2200DCAAF2 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8C2BCA3C285BBAEF00048669 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8C5D3942285A6FEA009CB9BF /* Project object */;
 }
